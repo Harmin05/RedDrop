@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "allowJs": true,
+    "checkJs": false
+  },
+  "include": ["src/**/*", "vite.config.cjs", "vitest.config.cjs", "tailwind.config.cjs"],
+  "exclude": ["dist", "node_modules"]
+}
